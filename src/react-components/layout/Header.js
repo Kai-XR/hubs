@@ -66,7 +66,7 @@ export function Header() {
           )}
         </ul>
       </nav>
-      <div className={styles.signIn}>
+      {/* <div className={styles.signIn}>
         {auth.isSignedIn ? (
           <div>
             <span>
@@ -81,7 +81,7 @@ export function Header() {
             <FormattedMessage id="sign-in.in" />
           </a>
         )}
-      </div>
+      </div> */}
     </header>
   );
 }
